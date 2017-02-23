@@ -2,7 +2,7 @@
 
 Here is where we will be keeping all of our M2 code. We encourage you to make suggestions, make pull requests, and generally get involved! Thanks for visiting.
 
-#### Install
+#### Install Libraries
 
 To get up and rolling quickly, do this:
 
@@ -14,7 +14,7 @@ To get up and rolling quickly, do this:
   http://macchina.cc/m2/getting-started
 
 
-##### Summary:
+#### Summary:
 
 Each of these Libraries adds functionality to M2 as summarized here:
 
@@ -24,4 +24,13 @@ Each of these Libraries adds functionality to M2 as summarized here:
 
 `SamNonDuePin` Gives M2 access to "non-Due" pins.
 
-`SWCAN` Single Wire CAN (GMLAN) ... On the way ...
+`SW_CAN` Single Wire CAN (GMLAN) give M2 signle-wire CAN functionality. Uses external MCP2515 tranciever connected to SAM3X via SPI. Library currently includes an example of sendind SW CAN messege. 
+
+
+#####For CAN functionality, use the excellent library:
+
+https://github.com/collin80/due_can
+
+##### Misc examples and test code that needs some organizing found on in GIST:
+
+https://gist.github.com/macchina
